@@ -11,6 +11,10 @@ PathFinding.js
 Introduction
 ------------
 
+This project has been forked and edited by MohammadReza Karegar, Arya Kowsary and Aryan Tajmir Riahy, teaching assistants of Artificial Intelligence course at Sharif University of Technology, in an attempt to make some of the basic search algorithms easier to learn for naïve students.
+
+We would also like to thank Mr. Feyzbakhsh for helping us in this process.
+
 The aim of this project is to provide a path-finding library that can be easily incorporated into web games. It may run on Node.js or the browser.
 
 It comes along with an [online demo](http://qiao.github.com/PathFinding.js/visual) to show how the algorithms execute. (The pathfinding speed is slowed down in the demo)
