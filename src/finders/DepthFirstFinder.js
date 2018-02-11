@@ -2,7 +2,7 @@ var Util = require('../core/Util');
 var DiagonalMovement = require('../core/DiagonalMovement');
 
 /**
- * Breadth-First-Search path finder.
+ * Depth-First-Search path finder.
  * @constructor
  * @param {Object} opt
  * @param {boolean} opt.allowDiagonal Whether diagonal movement is allowed.
@@ -11,7 +11,7 @@ var DiagonalMovement = require('../core/DiagonalMovement');
  *     block corners. Deprecated, use diagonalMovement instead.
  * @param {DiagonalMovement} opt.diagonalMovement Allowed diagonal movement.
  */
-function BreadthFirstFinder(opt) {
+function DepthFirstFinder(opt) {
     opt = opt || {};
     this.allowDiagonal = opt.allowDiagonal;
     this.dontCrossCorners = opt.dontCrossCorners;
@@ -35,7 +35,7 @@ function BreadthFirstFinder(opt) {
  * @return {Array<Array<number>>} The path, including both start and
  *     end positions.
  */
-BreadthFirstFinder.prototype.findPath = function(startX, startY, endX, endY, grid) {
+DepththFirstFinder.prototype.findPath = function(startX, startY, endX, endY, grid) {
     var openList = [],
         diagonalMovement = this.diagonalMovement,
         startNode = grid.getNodeAt(startX, startY),
@@ -50,6 +50,7 @@ BreadthFirstFinder.prototype.findPath = function(startX, startY, endX, endY, gri
     while (openList.length) {
         // take the front node from the queue
         node = openList.shift();
+        // node = openList.pop();
         node.closed = true;
 
         // reached the end position
@@ -66,14 +67,14 @@ BreadthFirstFinder.prototype.findPath = function(startX, startY, endX, endY, gri
                 continue;
             }
 
-            openList.pushb(neighbor);
+            openList.push(neighbor);
             neighbor.opened = true;
             neighbor.parent = node;
         }
     }
-    
+
     // fail to find the path
     return [];
 };
 
-module.exports = BreadthFirstFinder;
+module.exports = DepthFirstFinder;
