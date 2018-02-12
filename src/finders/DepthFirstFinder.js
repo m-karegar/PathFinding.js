@@ -35,7 +35,7 @@ function DepthFirstFinder(opt) {
  * @return {Array<Array<number>>} The path, including both start and
  *     end positions.
  */
-DepththFirstFinder.prototype.findPath = function(startX, startY, endX, endY, grid) {
+DepthFirstFinder.prototype.findPath = function(startX, startY, endX, endY, grid) {
     var openList = [],
         diagonalMovement = this.diagonalMovement,
         startNode = grid.getNodeAt(startX, startY),
@@ -49,7 +49,7 @@ DepththFirstFinder.prototype.findPath = function(startX, startY, endX, endY, gri
     // while the queue is not empty
     while (openList.length) {
         // take the front node from the queue
-        node = openList.shift();
+        node = openList.pop();
         // node = openList.pop();
         node.closed = true;
 

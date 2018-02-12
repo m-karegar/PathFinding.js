@@ -61,11 +61,7 @@ pathTests({
     name: 'AStar',
     finder: new PF.AStarFinder(),
     optimal: true
-}, {
-    name: 'DepthFirst',
-    finder: new PF.DepthFirstFinder(),
-    optimal: true
-}, {
+},  {
     name: 'BreadthFirst',
     finder: new PF.BreadthFirstFinder(),
     optimal: true
@@ -88,7 +84,7 @@ pathTests({
     name: 'BiAStar',
     finder: new PF.BiAStarFinder(),
     optimal: false
-}, {
+},{
     name: 'BestFirst',
     finder: new PF.BestFirstFinder(),
     optimal: false
