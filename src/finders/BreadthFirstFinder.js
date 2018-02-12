@@ -66,7 +66,7 @@ BreadthFirstFinder.prototype.findPath = function(startX, startY, endX, endY, gri
                 continue;
             }
 
-            openList.pushb(neighbor);
+            openList.push(neighbor);
             neighbor.opened = true;
             neighbor.parent = node;
         }

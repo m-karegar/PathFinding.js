@@ -80,7 +80,7 @@ gulp.task('release', ['compile'], function(cb) {
       shell.exec('git clone https://github.com/imor/pathfinding-bower.git release');
       process.chdir('release');
       fs.writeFileSync('pathfinding-browser.js', fs.readFileSync('../lib/pathfinding-browser.js'));
-      fs.w('pathfinding-browser.min.js', fs.readFileSync('../lib/pathfinding-browser.min.js'));
+      fs.writeFileSync("pathfinding-browser.min.js", fs.readFileSync("../lib/pathfinding-browser.min.js"));
 
       f = jsonfile.readFileSync('bower.json');
       f.version = semver.inc(f.version, result.bumpType);
