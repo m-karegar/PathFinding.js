@@ -2,19 +2,12 @@ PathFinding.js
 ==============
 #### A comprehensive path-finding library in javascript. ####
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/qiao/PathFinding.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-[![Build Status](https://travis-ci.org/qiao/PathFinding.js.svg?branch=master)](https://travis-ci.org/qiao/PathFinding.js)
-[![Dependency Status](https://david-dm.org/qiao/pathfinding.js.png)](https://david-dm.org/qiao/pathfinding.js)
-[![Documentation Status](https://readthedocs.org/projects/pathfindingjs/badge/)](https://readthedocs.org/projects/pathfindingjs/?badge=latest)
-
-
 This project has been forked and edited by MohammadReza Karegar, Arya Kowsary and Aryan Tajmirriahi, teaching assistants of Artificial Intelligence course at Sharif University of Technology, in an attempt to give students intuition about some of the search algorithms.
 
 We would also like to thank Mr. Feyzbakhsh for helping us in this process.
 
 Introduction
-------------
+-----
 
 The aim of this project is to provide a path-finding library that can be easily incorporated into web games. It may run on Node.js or the browser.
 
