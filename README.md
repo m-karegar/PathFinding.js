@@ -87,16 +87,12 @@ var grid = new PF.Grid(matrix);
 Currently there are 10 path-finders bundled in this library, namely:
 
 *  `AStarFinder` *
-*  `BestFirstFinder`
+*  `DepthFirstFinder`
 *  `BreadthFirstFinder` *
-*  `DijkstraFinder` *
-*  `IDAStarFinder.js` *
-*  `JumpPointFinder` *
-*  `OrthogonalJumpPointFinder` *
+*  `BestFirstFinder`
 *  `BiAStarFinder`
-*  `BiBestFirstFinder`
 *  `BiBreadthFirstFinder` *
-*  `BiDijkstraFinder` *
+*  `BiBestFirstFinder`
 
 The prefix `Bi` for the last four finders in the above list stands for the bi-directional searching strategy.
 
