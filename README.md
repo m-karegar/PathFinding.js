@@ -8,12 +8,13 @@ PathFinding.js
 [![Dependency Status](https://david-dm.org/qiao/pathfinding.js.png)](https://david-dm.org/qiao/pathfinding.js)
 [![Documentation Status](https://readthedocs.org/projects/pathfindingjs/badge/)](https://readthedocs.org/projects/pathfindingjs/?badge=latest)
 
-Introduction
-------------
 
-This project has been forked and edited by MohammadReza Karegar, Arya Kowsary and Aryan Tajmirriahi, teaching assistants of Artificial Intelligence course at Sharif University of Technology, in an attempt to make some of the basic search algorithms easier to learn for naïve students.
+This project has been forked and edited by MohammadReza Karegar, Arya Kowsary and Aryan Tajmirriahi, teaching assistants of Artificial Intelligence course at Sharif University of Technology, in an attempt to give students intuition about some of the search algorithms.
 
 We would also like to thank Mr. Feyzbakhsh for helping us in this process.
+
+Introduction
+------------
 
 The aim of this project is to provide a path-finding library that can be easily incorporated into web games. It may run on Node.js or the browser.
 
