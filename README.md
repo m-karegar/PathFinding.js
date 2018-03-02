@@ -4,7 +4,7 @@ PathFinding.js
 
 This project has been forked and edited by MohammadReza Karegar, Arya Kowsary and Aryan Tajmirriahi, teaching assistants of Artificial Intelligence course at Sharif University of Technology, in an attempt to give students intuition about some of the search algorithms.
 
-We would also like to thank Mr. Feyzbakhsh for helping us in this process.
+We would also like to thank Dr. Feyzbakhsh for helping us in this process.
 
 Introduction
 -----
